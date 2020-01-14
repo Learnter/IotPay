@@ -1,0 +1,51 @@
+
+	.redacBox {
+		display: flex;
+		padding:20rpx;
+    align-items:center;
+		border-bottom:1px solid #eeeeee;
+	}
+	.redacTl {
+		min-width:140rpx;
+		line-height: 50rpx;
+		color:#666666;
+	}
+	.redacInput {
+		line-height: 50rpx;
+		flex: 1;
+	}
+	.redacInput input {
+		line-height: 50rpx;
+		padding:0rpx 20rpx 0rpx 10rpx;
+		color:#666666;
+		width:100%;
+    font-size:28rpx;
+	}
+	.redbianqBox {
+		display: flex;
+		padding:20rpx;
+	}
+	.redacText {
+		display: inline-block;
+		border:1px solid #bbbbbb;
+		color:#666666;
+		padding:0rpx 15rpx;
+		border-radius: 6rpx;
+		margin:0rpx 20rpx 10rpx 0rpx;
+		line-height: 40rpx;
+		font-size:22rpx;
+	}
+	.redacTextActive {
+		color:#158DFF;
+		border:1px solid #158DFF;
+	}
+	.redbbutton {
+    width:90%;
+    margin:60rpx auto;
+	}
+  .confirBtn{
+    height:80rpx;
+    line-height:80rpx;
+    font-size:34rpx;
+    background:#FA5951;
+  }

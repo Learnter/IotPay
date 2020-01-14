@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5485343",
+      "name": "左箭头",
+      "font_class": "arrow-left",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "8288512",
+      "name": "右箭头",
+      "font_class": "arrow-right",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "11165599",
+      "name": "电  话",
+      "font_class": "dianhua",
+      "unicode": "e517",
+      "unicode_decimal": 58647
+    }
+  ]
+}

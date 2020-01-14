@@ -1,0 +1,374 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/findPwd/findPwd",
+      "style": {
+        "navigationBarTitleText": "找回密码",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/setUp/setUp",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "titleNView": {
+            "backgroundColor": "#f08207"
+          }
+        }
+      }
+    }, {
+      "path": "pages/setUp/updatePwd/updatePwd",
+      "style": {
+        "navigationBarTitleText": "修改密码",
+        "app-plus": {
+          "titleNView": {
+            "blurEffect": "extralight",
+            "splitLine": {
+              "color": "#f08207",
+              "height": "3px"
+            },
+            "buttons": [{
+              "text": "完成",
+              "fontSize": "15px",
+              "color": "#ffffff",
+              "float": "right",
+              "width": "50px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/setUp/aboutUs/aboutUs",
+      "style": {
+        "navigationBarTitleText": "关于我们"
+      }
+    }, {
+      "path": "pages/setUp/help/help",
+      "style": {
+        "navigationBarTitleText": "帮助中心"
+      }
+    },
+    {
+      "path": "pages/me/me",
+      "style": {
+        "navigationBarTitleText": "",
+        "app-plus": {
+          "titleNView": {
+            "backgroundColor": "#f08207"
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/me/storeList/storeList",
+      "style": {
+        "navigationBarTitleText": "商家列表"
+      }
+    }, {
+      "path": "pages/myWallet/myWallet",
+      "style": {
+        "navigationBarTitleText": "我的钱包"
+      }
+    }, {
+      "path": "pages/myWallet/withdraw/withdraw",
+      "style": {
+        "navigationBarTitleText": "提现"
+      }
+    }, {
+      "path": "pages/brokerage/brokerage",
+      "style": {
+        "navigationBarTitleText": "佣金收益",
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "titleNView": {
+            "backgroundColor": "#F9474E"
+          }
+        }
+      }
+    }, {
+      "path": "pages/brokerage/borkerageDetail/borkerageDetail",
+      "style": {
+        "navigationBarTitleText": "佣金明细"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/yiFuKuan",
+      "style": {
+        "navigationBarTitleText": "采购管理"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/personalZiLiao",
+      "style": {
+        "navigationBarTitleText": "个人资料",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/tuiGuang",
+      "style": {
+        "navigationBarTitleText": "推广二维码",
+        "navigationBarBackgroundColor": "#f08207",
+        "navigationBarTextStyle": "white"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/goodsNeiye",
+      "style": {
+        "navigationBarTitleText": "金元通刷脸",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+
+    }, {
+      "path": "pages/personalCenterNeiye/feiLv",
+      "style": {
+        "navigationBarTitleText": "商家费率分润",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/tixian",
+      "style": {
+        "navigationBarTitleText": "原始资产提现",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/jiaoyi",
+      "style": {
+        "navigationBarTitleText": "交易查询",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/mySheBei",
+      "style": {
+        "navigationBarTitleText": "我的设备",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/xiangqing",
+      "style": {
+        "navigationBarTitleText": "查看详情",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/shangpin",
+      "style": {
+        "navigationBarTitleText": "商品列表",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/tuandui",
+      "style": {
+        "navigationBarTitleText": "团队设备",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    }, {
+      "path": "pages/personalCenterNeiye/shangxueyuan",
+      "style": {
+        "navigationBarTitleText": "商学院",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    }, {
+      "path": "pages/myBanks/myBanks",
+      "style": {
+        "navigationBarTitleText": "我的银行卡"
+      }
+    }, {
+      "path": "pages/myBanks/addBank/addBank",
+      "style": {
+        "navigationBarTitleText": "添加银行卡"
+      }
+    }, {
+      "path": "pages/recruitment/recruitment",
+      "style": {
+        "navigationBarTitleText": "商家入驻"
+      }
+    }, {
+      "path": "pages/agent/agent",
+      "style": {
+        "navigationBarTitleText": "代理商"
+      }
+    }, {
+      "path": "pages/products/products",
+      "style": {
+        "navigationBarTitleText": "商城"
+      }
+    }, {
+      "path": "pages/products/productDetail/productDetail",
+      "style": {
+        "navigationBarTitleText": "产品详情"
+      }
+    }, {
+      "path": "pages/address/address",
+      "style": {
+        "navigationBarTitleText": "新增地址"
+      }
+    }, {
+      "path": "pages/address/addresslist/addresslist",
+      "style": {
+        "navigationBarTitleText": "地址列表"
+      }
+    }, {
+      "path": "pages/address/editAddress/editAddress",
+      "style": {
+        "navigationBarTitleText": "编辑地址"
+      }
+    }, {
+      "path": "pages/products/submitOrder/submitOrder",
+      "style": {
+        "navigationBarTitleText": "提交订单"
+      }
+    }, {
+      "path": "pages/products/orderPay/orderPay",
+      "style": {
+        "navigationBarTitleText": "确认支付"
+      }
+    }, {
+      "path": "pages/orders/orders",
+      "style": {
+        "navigationBarTitleText": "订单列表"
+      }
+    }, {
+      "path": "pages/orders/orderDetails/orderDetails",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/store/store",
+      "style": {
+        "navigationBarTitleText": "铺货",
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+                "text": "\ue624",
+                "fontSrc": "/static/iconfont.ttf",
+                "fontSize": "20",
+                "width": "25px"
+              },
+              {
+                "text": "定位",
+                "fontSize": "16"
+              }
+            ]
+          }
+        }
+      }
+    }, {
+      "path": "pages/store/nearbyStore/nearbyStore",
+      "style": {
+        "navigationBarTitleText": "附近门店"
+      }
+    }, {
+      "path": "pages/store/distribution/distribution",
+      "style": {
+        "navigationBarTitleText": "立即铺货"
+      }
+    }, {
+      "path": "pages/store/protocol/protocol",
+      "style": {
+        "navigationBarTitleText": "铺货合约"
+      }
+    }, {
+      "path": "pages/store/medicOrders/medicOrders",
+      "style": {
+        "navigationBarTitleText": "铺货订单"
+      }
+    }, {
+      "path": "pages/chooseCity/chooseCity",
+      "style": {
+        "navigationBarTitleText": "切换城市"
+      }
+    }, {
+      "path": "pages/agent/xieyi",
+      "style": {
+
+        "navigationBarTitleText": "协议简介"
+
+      }
+    }, {
+      "path": "pages/agent/shenqing",
+      "style": {
+        "navigationBarTitleText": "申请表单"
+      }
+    }, {
+      "path": "pages/store/salesman/salesman",
+      "style": {
+        "navigationBarTitleText": "业务员推荐"
+      }
+    }, {
+      "path": "pages/agent/contract_xieyi/contract_xieyi",
+      "style": {
+        "navigationBarTitleText":"合约协议"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#f08207",
+    //#ifdef APP-PLUS
+    "animationType": "zoom-fade-out",
+    //#endif
+    "backgroundColor": "#f08207",
+    "app-plus":{
+      "bounce":"none"
+    }
+  },
+  "tabBar": {
+    "color": "#DFC7C9",
+    "selectedColor": "#B91B12",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/me/me",
+        "iconPath": "static/footer/icon-1.png",
+        "selectedIconPath": "static/footer/icon-1-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/products/products",
+        "iconPath": "static/footer/icon-9.png",
+        "selectedIconPath": "static/footer/icon-9-active.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "iconPath": "static/icon/2019slyw_32.png",
+        "selectedIconPath": "static/icon/2019slyw_31.png",
+        "text": "铺货"
+      },
+      {
+        "pagePath": "pages/personalCenterNeiye/tuiGuang",
+        "iconPath": "static/footer/icon-11.png",
+        "selectedIconPath": "static/footer/icon-11-active.png",
+        "text": "分享"
+      },
+      {
+        "pagePath": "pages/setUp/setUp",
+        "iconPath": "static/footer/2019slyw_7.png",
+        "selectedIconPath": "static/footer/2019slyw_6.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
